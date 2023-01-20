@@ -19,7 +19,7 @@ Easy
   * style.css
   * script.js
 
-2. In your index.html file, initialize the following code:
+2. In your index.html file (remember to link your css and js files), initialize the following code:
  ```<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +35,9 @@ Easy
 </html>
 ```
 ## Part I: HTML
+1. Create the following HTML elements between the body tags with the following nested structure:
+ *```div``` with the id "container"
+
 
 ## Part II: CSS
 
