@@ -19,7 +19,21 @@ Easy
   * style.css
   * script.js
 
-2. 
+2. In your index.html file, initialize the following code:
+ ```<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Calculator</title>
+</head>
+<body>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
 ## Part I: HTML
 
 ## Part II: CSS
