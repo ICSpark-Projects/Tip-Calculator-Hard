@@ -1,6 +1,6 @@
 # Tip Calculator
 
-Create a simple tool to calculate tip at a restaurant or for a service.
+Create a simple tool to calculate tip/gratuity at a restaurant or for a service.
 
 ## Difficulty
 Easy
