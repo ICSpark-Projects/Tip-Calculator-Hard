@@ -36,7 +36,11 @@ Easy
 ```
 ## Part I: HTML
 1. Create the following HTML elements between the body tags with the following nested structure:
- *```div``` with the id "container"
+  * ```div``` with the id of "container"
+   * ```h1``` tag with the inner HTML "Tip Calculator".
+   *  ```p``` tag with the inner HTML "Tip your waiters!". (You can customize this message)
+   *  ```div``` with the id of "boxes". This div will hold the squares of each input section
+    *  ```div``` with the class of "input-section". This div will hold the bill amount input.
 
 
 ## Part II: CSS
