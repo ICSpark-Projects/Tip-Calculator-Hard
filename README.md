@@ -12,6 +12,8 @@ Easy
 - JS Functions
 - Variables
 - Return Statements
+- Math Functions
+- Arithmetic
 
 ## Setup
 1. Create the following files:
@@ -63,7 +65,7 @@ Easy
          - ```h2``` tag with the inner HTML "Tip Per Person".
          - ```h3``` tag
             - ```sup``` tag with the inner HTML of "$"
-            - ```span``` tag with the ```id``` of "perPersonBill" and inner HTML of "0.00" 
+            - ```span``` tag with the ```id``` of "tip" and inner HTML of "0.00" 
        - ```div``` with the ```id``` of "billPerPerson"
          - ```h3``` tag
            - ```sup``` tag with the inner HTML of "$"
@@ -116,12 +118,28 @@ When this function is called, it will return the value in tipPerPerson.
 
 When this function is called, it will return the value in billPerPerson.
 
-3. Create an onlick event function when the calculate button is clicked. 
+3. Create an onlick event function when the calculate button is clicked. This will display the results of the calculations.
      ``` javascript
      document.getElementById("calculate").onclick = function() {
        //code here
      };
      ```
+Inside the function, do the following:
+     - ```document.getElementId("tip").innerHTML```
+     - call the ```calculateTip``` function and set that to equal the previous line
+     - example:
+     ```javascript
+     documeent.getElementId(yourelementid) = function call
+     ```
+     - ```document.getElementId("perPersonBill").innerHTML```
+     - call the ```calculateBill``` function and set that to equal the previous line
+     
+## Completed Screenshot
+*TO DO~~~~**
+     
 ## Stretch Goals
 1. Create an option where you can input your own custom tip percentage where the user can type in a number that is not already in the options list.
 2. Sometimes people will put in the negative numbers or leave a section blank. Create error messages of these invalid inputs by using if statements and conditions.
+
+## Credits
+This tip calculator is a variation of: https://codepen.io/cphemm/pen/reNwWd
