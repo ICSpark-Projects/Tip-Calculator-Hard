@@ -44,6 +44,11 @@ Easy
             - ```h3``` tag with the inner HTML "Bill Amount".
             - ```p``` tag with the inner HTML "Enter the total amount on your bill (You can customize this message).
             - ```input``` with the ```id``` of "bill", ```type``` of "number", ```placeholder``` of "$"
+          - ```div``` with the ```class``` of "input-section". This div will hold the bill amount input.
+            - ```h3``` tag with the inner HTML "Bill Amount".
+            - ```p``` tag with the inner HTML "Enter the total amount on your bill (You can customize this message).
+            - ```input``` with the ```id``` of "bill", ```type``` of "number", ```placeholder``` of "$"
+
 
 
 ## Part II: CSS
