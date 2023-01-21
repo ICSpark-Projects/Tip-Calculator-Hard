@@ -96,3 +96,5 @@ Easy
 ## Part III: JS
 
 ## Stretch Goals
+1. Create an option where you can input your own custom tip percentage where the user can type in a number that is not already in the options list.
+2. Sometimes people will put in the negative numbers or leave a section blank. Create error messages of these invalid inputs by using if statements and conditions.
