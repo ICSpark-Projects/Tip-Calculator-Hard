@@ -125,7 +125,7 @@ When this function is called, it will return the value in tipPerPerson.
         ```
      - Now that we have the values of the 3 things we need to calculate the total bill each person owes, we can use arithmetics to calculate that. Do the following:
        -  Create a ```let``` variable called "billPerPerson"
-       -  Set that variable to equal to ```(bill / numOfPeople) / tipPerPerson```
+       -  Set that variable to equal to ```(bill / numOfPeople) + tipPerPerson```
        -  How would we deal with numbers that are more than 2 decimal places? We will use JS math methods to round to the nearest hundredth and then make them 2 decimal places with the following code:
        - ```javascript
          //round to nearest hundredth
