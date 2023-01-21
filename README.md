@@ -116,8 +116,12 @@ When this function is called, it will return the value in tipPerPerson.
 
 When this function is called, it will return the value in billPerPerson.
 
-3. Create an onlick function when the calculate button is clicked
-
+3. Create an onlick event function when the calculate button is clicked. 
+     ``` javascript
+     document.getElementById("calculate").onclick = function() {
+       //code here
+     };
+     ```
 ## Stretch Goals
 1. Create an option where you can input your own custom tip percentage where the user can type in a number that is not already in the options list.
 2. Sometimes people will put in the negative numbers or leave a section blank. Create error messages of these invalid inputs by using if statements and conditions.
