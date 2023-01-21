@@ -97,13 +97,20 @@ Easy
 
 ## Part III: JS
 1. Create a function called calculateTip that takes in no parameters. This will calculate the tip per person. In this function create the following:
-     - Store the value of the ```bill``` element in a ```let``` variable called bill using the DOM method ```document.getElementById("yourelementid").value```
-     - Store the value of the ```rating``` element in a ```let``` variable called serviceRating using the DOM method ```document.getElementById("yourelementid").value``` 
-     - Store the value of the ```people``` element in a ```let``` variable called numOfPeople using the DOM method ```document.getElementById("yourelementid").value```
-     - variable
-     - update blah
-     - update blah
-     - ```return tipPerPerson``` 
+     - Store the value of the ```bill``` element in a ```let``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
+     - Store the value of the ```rating``` element in a ```let``` variable called "serviceRating" using the DOM method ```document.getElementById("yourelementid").value``` 
+     - Store the value of the ```people``` element in a ```let``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
+     - Now that we have the values of the 3 things we need to calculate the tip each person owes, we can use arithmetics to calculate that. Do the following:
+       -  Create a ```let``` variable called "tipPerPerson"
+       -  Set that variable to equal to ```(bill * serviceRating) / numOfPeople```
+       -  How would we deal with numbers that are more than 2 decimal places? We will use math functions to round to the nearest hundredth and then make them 2 decimal places.
+       - ```javascript
+         //round to nearest hundredth
+         tipPerPerson = Math.round(tipPerPerson * 100) / 100;
+         // 2 decimal plaes
+         tipPerPerson = tipPerPerson.toFixed(2);
+         ```
+     - Return the final value that we want by: ```return tipPerPerson``` 
 
 When this function is called, it will return the value in tipPerPerson.
 
