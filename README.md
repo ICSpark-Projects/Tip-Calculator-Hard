@@ -45,7 +45,7 @@ Easy
 
 ## Part II: CSS
 1. Target the ```body``` element
-       - set ```text-align``` to ```center```
+     - set ```text-align``` to ```center```
        - set ```background-color``` to a color of your choice
 2. Target the ```container``` id
        - set ```max-width``` to ```800px```
