@@ -47,7 +47,7 @@ Easy
           - ```div``` with the ```class``` of "input-section". This div will hold tip percentage.
             - ```h3``` tag with the inner HTML "Rate the Service".
             - ```p``` tag with the inner HTML "How was your experience?" (You can customize this message).
-            - ```select``` with the ```id``` of "rating" *Note: You can customize the percentages and inner HTML to whatever you want :)*
+            - ```select``` with the ```id``` of "rating" *Note: You can customize the following option tags to whatever percentages and inner HTML to whatever you want :)*
               - ```option``` tag with ```disabled selected value``` of "0" and the inner HTML "--- Rating ---"
               - ```option``` tag with ```value``` of "0.10" and the inner HTML "Bad - 10%"
               - ```option``` tag with ```value``` of "0.18" and the inner HTML "OK - 18%"
