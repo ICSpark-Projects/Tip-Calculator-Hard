@@ -112,7 +112,7 @@ When this function is called, it will return the value in tipPerPerson.
      - var
      - update blah
      - update blah
-     - ```return totalBill```
+     - ```return billPerPerson```
 
 When this function is called, it will return the value in billPerPerson.
 
