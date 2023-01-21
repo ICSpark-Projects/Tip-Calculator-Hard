@@ -124,15 +124,15 @@ When this function is called, it will return the value in billPerPerson.
        //code here
      };
      ```
-Inside the function, do the following:
-     - ```document.getElementId("tip").innerHTML```
-     - Call the ```calculateTip``` function and set that to equal the previous line
-     - Example:
-     ```javascript
-     documeent.getElementId(yourelementid) = function call
-     ```
-     - ```document.getElementId("perPersonBill").innerHTML```
-     - call the ```calculateBill``` function and set that to equal the previous line
+     - Inside the function, do the following:
+       - ```document.getElementId("tip").innerHTML```
+       - Call the ```calculateTip``` function and set that to equal the previous line
+       - Example:
+       ```javascript
+       documeent.getElementId(yourelementid) = function call
+       ```
+       - ```document.getElementId("perPersonBill").innerHTML```
+       - call the ```calculateBill``` function and set that to equal the previous line
      
 ## Completed Screenshot
 *TO DO~~~~**
