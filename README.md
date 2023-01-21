@@ -125,7 +125,7 @@ When this function is called, it will return the value in billPerPerson.
      };
      ```
 Inside the function, do the following:
-     - ```document.getElementId("tip").innerHTML```
+     - DOM method: ```document.getElementId("tip").innerHTML```
      - call the ```calculateTip``` function and set that to equal the previous line
      - example:
      ```javascript
