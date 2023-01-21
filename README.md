@@ -53,10 +53,22 @@ Easy
               - ```option``` tag with ```value``` of "0.18" and the inner HTML "OK - 18%"
               - ```option``` tag with ```value``` of "0.35" and the inner HTML "Good - 35%"
               - ```option``` tag with ```value``` of "0.50" and the inner HTML "0.50 - 50%"
-              
-
-
-
+          - ```div``` with the ```class``` of "input-section". This div will hold the amount of people splitting the bill.
+             - ```h3``` tag with the inner HTML "Splitting the Bill?
+             - ```p``` tag with the inner HTML "How many people are sharing the bill?" (You can customize this message).
+             - ```input``` with the ```id``` of "people", ```type``` of "number", ```value``` of "0"
+       - ```div``` with the ```id``` of "calculate-button"
+         - ```button``` tag with the ```id``` of "calculate" and inner HTML of "Calculate!"
+       - ```div``` with the ```id``` of "totalTip".
+         - ```h2``` tag with the inner HTML "Tip Per Person".
+         - ```h3``` tag
+            - ```sup``` tag with the inner HTML of "$"
+            - ```span``` tag with the ```id``` of "perPersonBill" and inner HTML of "0.00" 
+       - ```div``` with the ```id``` of "billPerPerson"
+         - ```h3``` tag
+           - ```sup``` tag with the inner HTML of "$"
+           - ```span``` tag with the ```id``` of "perPersonBill" and inner HTML of "0.00"          
+                    
 ## Part II: CSS
 1. Target the ```body``` element
      - set ```text-align``` to ```center```
