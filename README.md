@@ -46,22 +46,22 @@ Easy
 ## Part II: CSS
 1. Target the ```body``` element
      - set ```text-align``` to ```center```
-       - set ```background-color``` to a color of your choice
+     - set ```background-color``` to a color of your choice
 2. Target the ```container``` id
-       - set ```max-width``` to ```800px```
-       - set ```margin``` to ```16px auto```
-       - set ```background``` to ```white```
-       - set ```padding``` to ```30px```
-       - set ```border-radius``` to ```10px```
+     - set ```max-width``` to ```800px```
+     - set ```margin``` to ```16px auto```
+     - set ```background``` to ```white```
+     - set ```padding``` to ```30px```
+     - set ```border-radius``` to ```10px```
 3. Target the ```boxes``` id
-       - set ```display``` to ```flex```
+     - set ```display``` to ```flex```
 4. Target the ```input-sections``` class 
-       - set ```padding``` to ```16px```
-       - set ```border``` to ```1px solid blakc```
-       - set ```margin-right``` to ```16px```
-       - set ```border-radius``` to ```16px```
+     - set ```padding``` to ```16px```
+     - set ```border``` to ```1px solid blakc```
+     - set ```margin-right``` to ```16px```
+     - set ```border-radius``` to ```16px```
 5. Target the ```calculate-button``` id
-       - set ```margin-top``` to ```16px```
+     - set ```margin-top``` to ```16px```
 
 ## Part III: JS
 
