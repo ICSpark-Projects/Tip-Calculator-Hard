@@ -155,7 +155,7 @@ When this function is called, it will return the value in billPerPerson.
        ```
      
 ## Completed Screenshot
-*TO DO~~~~**
+<img src="https://github.com/yhanessaanne/tip-calculator/blob/main/Screen%20Shot%202023-01-20%20at%207.53.51%20PM.png?raw=true"
      
 ## Stretch Goals
 1. Create an option where you can input your own custom tip percentage where the user can type in a number that is not already in the options list.
