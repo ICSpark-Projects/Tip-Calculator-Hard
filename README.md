@@ -97,9 +97,9 @@ Easy
 
 ## Part III: JS
 1. Create a function called calculateTip that takes in no parameters. This will calculate the tip per person. In this function create the following:
-     - variable
-     - variable
-     - variable
+     - Store the value of the ```bill``` element in a ```let``` variable called bill using the DOM method ```document.getElementById("yourelementid").value```
+     - Store the value of the ```rating``` element in a ```let``` variable called serviceRating using the DOM method ```document.getElementById("yourelementid").value``` 
+     - Store the value of the ```people``` element in a ```let``` variable called numOfPeople using the DOM method ```document.getElementById("yourelementid").value```
      - variable
      - update blah
      - update blah
@@ -127,12 +127,12 @@ When this function is called, it will return the value in billPerPerson.
      - Inside the function, do the following:
        - ```document.getElementId("tip").innerHTML```
        - Call the ```calculateTip``` function and set that to equal the previous line
+       - ```document.getElementId("perPersonBill").innerHTML```
+       - call the ```calculateBill``` function and set that to equal the previous line
        - Example:
        ```javascript
        documeent.getElementId(yourelementid) = function call
        ```
-       - ```document.getElementId("perPersonBill").innerHTML```
-       - call the ```calculateBill``` function and set that to equal the previous line
      
 ## Completed Screenshot
 *TO DO~~~~**
