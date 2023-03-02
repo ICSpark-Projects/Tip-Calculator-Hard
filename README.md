@@ -110,7 +110,7 @@ When this function is called, it will return the value in tipPerPerson.
      - Call the ```calculateTip``` function and store that in the tipPerPerson variable.
      - Use the ```parseFloat``` method on tipPerPerson
      -  ```javascript
-        parseFloat(tipPerPerson);
+          tipPerPerson = parseFloat(tipPerPerson); //converts string into float :)
         ```
      - Now that we have the values of the 3 things we need to calculate the total bill each person owes, we can use arithmetics to calculate that. Do the following:
        -  Create a ```var``` variable called "billPerPerson"
