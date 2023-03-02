@@ -89,7 +89,7 @@ Easy
      - Set the value of the ```bill``` element in a ```var``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
      - Set the value of the ```rating``` element in a ```var``` variable called "serviceRating" using the DOM method ```document.getElementById("yourelementid").value``` 
      - Set the value of the ```people``` element in a ```var``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
-     - ex. var variableName = document.getElementById("yourelementid").value`
+     - ```ex. var variableName = document.getElementById("yourelementid").value```
      - Now that we have the values of the 3 things we need to calculate the tip each person owes, we can use arithmetics to calculate that. Do the following:
        -  Create a ```var``` variable called "tipPerPerson"
        -  Set that variable to equal to ```(bill * serviceRating) / numOfPeople```
@@ -107,7 +107,7 @@ When this function is called, it will return the value in tipPerPerson.
 2. Create a function called calculateBill that takes in no parameteres. This will calculate the total bill each person has to pay. In this function create the following:
      - Set the value of the ```bill``` element in a ```var``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
      - Set the value of the ```people``` element in a ```var``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
-     - ex. var variableName = document.getElementById("yourelementid").value`
+     - ```ex. var variableName = document.getElementById("yourelementid").value```
      - Create a ```var``` variable called "tipPerPerson"
      - Call the ```calculateTip``` function and set that equal to the tipPerPerson variable.
      - Use the ```parseFloat``` method on tipPerPerson
