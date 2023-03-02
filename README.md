@@ -97,11 +97,11 @@ Easy
 
 ## Part III: JS
 1. Create a function called calculateTip that takes in no parameters. This will calculate the tip per person. In this function create the following:
-     - Store the value of the ```bill``` element in a ```let``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
-     - Store the value of the ```rating``` element in a ```let``` variable called "serviceRating" using the DOM method ```document.getElementById("yourelementid").value``` 
-     - Store the value of the ```people``` element in a ```let``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
+     - Store the value of the ```bill``` element in a ```var``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
+     - Store the value of the ```rating``` element in a ```var``` variable called "serviceRating" using the DOM method ```document.getElementById("yourelementid").value``` 
+     - Store the value of the ```people``` element in a ```var``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
      - Now that we have the values of the 3 things we need to calculate the tip each person owes, we can use arithmetics to calculate that. Do the following:
-       -  Create a ```let``` variable called "tipPerPerson"
+       -  Create a ```var``` variable called "tipPerPerson"
        -  Set that variable to equal to ```(bill * serviceRating) / numOfPeople```
        -  How would we deal with numbers that are more than 2 decimal places? We will use JS math methods to round to the nearest hundredth and then make them 2 decimal places with the following code:
        - ```javascript
@@ -115,16 +115,16 @@ Easy
 When this function is called, it will return the value in tipPerPerson.
 
 2. Create a function called calculateBill that takes in no parameteres. This will calculate the total bill each person has to pay. In this function create the following:
-     - Store the value of the ```bill``` element in a ```let``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
-     - Store the value of the ```people``` element in a ```let``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
-     - Create a ```let``` variable called "tipPerPerson"
+     - Store the value of the ```bill``` element in a ```var``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
+     - Store the value of the ```people``` element in a ```var``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
+     - Create a ```var``` variable called "tipPerPerson"
      - Call the ```calculateTip``` function and store that in the tipPerPerson variable.
      - Use the ```parseFloat``` method on tipPerPerson
      -  ```javascript
         parseFloat(tipPerPerson);
         ```
      - Now that we have the values of the 3 things we need to calculate the total bill each person owes, we can use arithmetics to calculate that. Do the following:
-       -  Create a ```let``` variable called "billPerPerson"
+       -  Create a ```var``` variable called "billPerPerson"
        -  Set that variable to equal to ```(bill / numOfPeople) + tipPerPerson```
        -  How would we deal with numbers that are more than 2 decimal places? We will use JS math methods to round to the nearest hundredth and then make them 2 decimal places with the following code:
        - ```javascript
