@@ -21,21 +21,10 @@ Easy
   - style.css
   - script.js
 
-2. In your index.html file (remember to link your css and js files), initialize the following code:
- ```<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="style.css">
-  <title>Tip Calculator</title>
-</head>
-<body>
+2. In your index.html file link your css and js files in their respective lines, initialize the following code:
 
-  <script src="script.js"></script>
-</body>
-</html>
-```
+```<link rel="stylesheet" href="style.css">```
+```<script src="script.js"></script>```
 ## Part I: HTML
 1. Create the following HTML elements between the ```body``` tags with the following nested structure:
      - ```div``` with the id of "container" 
