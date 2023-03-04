@@ -96,8 +96,6 @@ Easy
          // 2 decimal plaes
          tipPerPerson = tipPerPerson.toFixed(2);
          ```
-     - Return the final value that we want by: ```return tipPerPerson``` 
-
 When this function is called, it will return the value in tipPerPerson.
 
 2. Create a function called calculateBill that takes in no arguments. This will calculate the total bill each person has to pay. In this function create the following:
@@ -120,9 +118,7 @@ When this function is called, it will return the value in tipPerPerson.
          // 2 decimal plaes
          billPerPerson = billPerPerson.toFixed(2);
          ```
- 
-     - ```return billPerPerson```
-
+         
 When this function is called, it will return the value in billPerPerson.
 
 3. Create an onlick event function when the calculate button is clicked. This will display the results of the calculations.
